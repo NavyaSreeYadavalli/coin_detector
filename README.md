@@ -25,12 +25,11 @@ First, clone the YOLOv5 repository and navigate to it:
 ```sh
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
-
 pip install -r requirements.txt
-pip install flask pillow
 ```
 ### Prepare the Dataset
 ```sh
+pip install -r requirements.txt
 python convert_data.py
 ```
 It organizes the data in the below format
@@ -57,6 +56,7 @@ Parameters
 --weights yolov5s.pt: Pre-trained weights file
 --name yolov5_coins: Name of the training run
 ```
+### Directly build the docker image to run the application
 
 ### Build docker Image
 ```commandline
