@@ -63,4 +63,4 @@ def get_coin_details(coin_id):
         return jsonify({'error': 'Coin not found'}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
