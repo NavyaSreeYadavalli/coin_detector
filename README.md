@@ -84,10 +84,14 @@ curl -X GET http://localhost:5000/coin/<coin_id>
 
 ### Evalution Metrics
 As part of YOLOv5, we are calculating below metrics.
+
 **Precision**: The fraction of true positive detections among all positive detections. It measures how accurate the detections are.
+
 **Recall**: The fraction of true positive detections among all actual positive instances. It measures how well the model detects all relevant objects.
+
 **Mean Average Precision (mAP)**: The average of the precision values at different recall levels. mAP@0.5 (or simply mAP) is calculated at an Intersection over Union (IoU) threshold of 0.5, while mAP@0.5:0.95 is averaged over IoU thresholds from 0.5 to 0.95 in increments of 0.05.
+
 **IoU (Intersection over Union)**: A measure of the overlap between the predicted bounding box and the ground truth bounding box.
 
-The model that is inferences here is having all the evalution metrics with 98% score. Refer to the results csv file in the exp2 folder in yolov5/runs directory.
+The model that is inferences here is having all the evaluation metrics with 98% score. Refer to the results csv file in the exp2 folder in yolov5/runs directory.
 
