@@ -83,7 +83,7 @@ curl -X GET http://localhost:5000/coin/<coin_id>
 ```
 
 ### Evalution Metrics
-As part of YOLOv5, we are calculating below metrics.
+As part of YOLOv5, below evaluation metrics are monitored.
 
 **Precision**: The fraction of true positive detections among all positive detections. It measures how accurate the detections are.
 
